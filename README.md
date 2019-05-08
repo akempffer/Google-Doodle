@@ -1,5 +1,2 @@
-# Google Doodle
-
-## Sources
-*[Animista] (http://animista.net/)
-*[Animate.css] (https://daneden.github.io/animate.css/)
+# web-2-framework
+Web 2 Framework

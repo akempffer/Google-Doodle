@@ -1,0 +1,120 @@
+/* My Awesome Styles */
+
+/* Diagnostic Styling 
+  * Change Background Color
+  * Outline Elements
+*/
+
+/* * {
+    outline: 1px dotted black;
+} */
+
+#stage {
+  background: #00ffff;
+  height: 400px;
+  width: 700px;
+  overflow: hidden;
+  position: relative;
+}
+  
+/*  Positioning  */
+  
+  /* Overflow */
+
+
+/* Children */
+#banner{
+  position: absolute;
+  margin: 0 auto;
+  top: 0%;
+  width: 700px;
+}
+
+#marigold{
+ position: absolute;
+ margin: 0 auto;
+ top: 10%;
+ width: 700px;
+ left: -35%;
+}
+
+#skele{
+ position: absolute;
+ text-align: right;
+ top: 50%;
+ width: 500px;
+ opacity: 0;
+}
+
+#ski{
+ position: absolute;
+ text-align: left;
+ top: 27%;
+ width: 500px;
+ opacity: 0; 
+}
+
+#stage:hover {
+  background: #201F53;  
+}
+
+#stage:hover #marigold {
+  animation: slideOutRight 8s;
+  
+}
+
+#stage:hover #skele {
+  opacity: 1; 
+}
+
+#stage:hover #ski {
+  opacity: 1; 
+}
+
+.st0{
+  fill:#7e17b3;
+}
+.st1{
+  fill:#ff9217;
+}
+.st3{
+  fill:#b82216;
+}
+.st4{
+  fill:#027c00;
+}
+.st5{
+  fill:none;
+}
+
+/* 6-8 effect the banner text, 6 is color; 7 font & 8 font size */
+.st6{
+  fill:#0ff;
+}
+
+#stage:hover .st6 {
+  fill:#201F53;
+}
+
+#stage:hover .st0{
+  fill: #58F714;
+}
+
+#stage:hover .st1{
+  fill: #1EF9C6;
+}
+
+#stage:hover .st3{
+  fill: #FB11AD;
+}
+
+#stage:hover .st4{
+  fill: #F9F11E;
+}
+
+.st7{
+  font-family:'Griffy', cursive;
+}
+.st8{
+  font-size:36px;
+}
