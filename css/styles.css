@@ -1,14 +1,6 @@
-/* My Awesome Styles */
-
-/* Diagnostic Styling 
-  * Change Background Color
-  * Outline Elements
-*/
-
-/* * {
-    outline: 1px dotted black;
-} */
-
+/* External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
+ */
+/* Doodle Stage */
 #stage {
   background: #00ffff;
   height: 400px;
@@ -60,7 +52,6 @@
 
 #stage:hover #marigold {
   animation: slideOutRight 8s;
-  
 }
 
 #stage:hover #skele {
@@ -74,15 +65,19 @@
 .st0{
   fill:#7e17b3;
 }
+
 .st1{
   fill:#ff9217;
 }
+
 .st3{
   fill:#b82216;
 }
+
 .st4{
   fill:#027c00;
 }
+
 .st5{
   fill:none;
 }
@@ -115,6 +110,8 @@
 .st7{
   font-family:'Griffy', cursive;
 }
+
 .st8{
   font-size:36px;
 }
+
